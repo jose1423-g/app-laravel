@@ -1,0 +1,58 @@
+--comandos para laravel y composer
+#composer global require laravel/installer
+#laravel --version
+#composer create-project laravel/laravel app-name --prefer-dist
+#php artisan serve
+#php artisan make::controller nameController
+#php artisan make::controller nameController -i
+#php artisan make::controller nameController -r
+#php artisan make::controller nameController -api
+#php artisan make::model nameModel -m
+#php artisan tinker
+#php artisan route:list
+#composer require laravel-lang/common --dev
+#php artisan lang:add es
+#php artisan lang:update
+#php artisan make:request namerequest -- crea un archivo para validaciones de formularios app/Http/Requests
+#php artisan route:list --path=blog
+#ssh-keyscan -t rsa github.com
+#ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+#php artisan tinker
+--COMPILACION DE VITE
+#npm install
+#npm run dev
+--- para publicar los cambios
+-- ejecutar antes de ir a produccion
+#npm run build
+#npm install sass --save-dev
+#npm install bootstrap --save-dev
+--desinstalando bootstrap
+#npm uninstall bootstrap
+--PARA INSTALAR TAILWINDCSS VER LA DOCUMENTACION
+--LARAVEL BREEZE usera login
+#composer requiere laravel/breeze --dev
+
+
+
+---comandos linux basicos
+#ls: Listar archivos y directorios en el directorio actual.
+#cd: Cambiar de directorio. Puedes usar cd seguido de la ruta del directorio al que deseas acceder.
+#pwd: Mostrar la ruta completa del directorio actual.
+#mkdir: Crear un nuevo directorio. Por ejemplo, mkdir nombre_directorio crea un directorio llamado "nombre_directorio".
+#rm: Eliminar archivos o directorios. Para eliminar un archivo, usa rm nombre_archivo. Para eliminar un directorio y su contenido de forma recursiva, usa rm -r nombre_directorio.
+#cp: Copiar archivos o directorios. Por ejemplo, cp archivo_origen archivo_destino copia un archivo a un nuevo destino.
+#mv: Mover o renombrar archivos o directorios. Para mover un archivo o directorio, usa mv origen destino. Para renombrar, simplemente cambia el nombre del archivo o directorio en el destino.
+#touch: Crear un archivo vacío. Por ejemplo, touch nombre_archivo crea un archivo llamado "nombre_archivo".
+#cat: Mostrar el contenido de un archivo en la terminal.
+#more o less: Mostrar el contenido de un archivo en la terminal con paginación (puedes desplazarte por el contenido).
+#head y tail: Mostrar las primeras o últimas líneas de un archivo, respectivamente.
+#grep: Buscar patrones de texto en archivos. Por ejemplo, grep texto_a_buscar archivo.
+#ps: Listar procesos en ejecución.
+#kill: Terminar un proceso en ejecución. Para detener un proceso, necesitas su identificador de proceso (PID). Ejemplo: kill -9 PID.
+#top o htop: Mostrar información en tiempo real sobre el uso del sistema y los procesos en ejecución.
+#df: Mostrar información sobre el espacio en disco.
+#du: Calcular el uso del espacio en disco de archivos y directorios.
+#tar: Comprimir y descomprimir archivos y directorios.
+#chmod: Cambiar los permisos de un archivo o directorio.
+#chown: Cambiar el propietario de un archivo o directorio.
+#code ~/nombre_de_la_carpeta: para abrir una carpeta con vs code
