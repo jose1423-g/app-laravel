@@ -11,7 +11,7 @@ class Post extends Model
     use HasFactory;
 
     /* en caso de que el nombre del model no sea el nombre o queramos usar otro nombre podemos utilizar la propiedad protected con la variable $table */
-    protected $table = 'contenido';
+    protected $table = 'post';
     protected $primaryKey = 'id_contenido';
 
     protected $fillable = ['Titulo', 'Que_es'];
