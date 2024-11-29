@@ -16,9 +16,9 @@ use App\Http\Middleware\Authenticate;
 //en caso de utilizar operaciones logicas hacer de esta manera
 //rotas de tipo get
 //ruta con nombre es para que los href en vez de buscar la url busquen por el nombre
-Route::view('/', 'welcome')->name('welcome');
+// Route::view('/', 'welcome')->name('welcome');
 
-Route::get('/blog', [PostController::class, 'index'])->name('posts.index');
+Route::get('/', [PostController::class, 'index'])->name('posts.index');
 
 Route::get('/blog/create', [PostController::class, 'create'])->name('posts.create');
 
